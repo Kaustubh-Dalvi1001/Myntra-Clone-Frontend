@@ -40,8 +40,6 @@ A fully responsive **frontend-only e-commerce clone of Myntra**, built using **H
     └── Myntra_Screenshot_2.png
 ```
 
-
-
 ---
 
 ## 🧰 Tech Stack
@@ -80,6 +78,14 @@ A fully responsive **frontend-only e-commerce clone of Myntra**, built using **H
 ## 📌 Author
 
 Made with ❤️ by [Kaustubh Dalvi](https://github.com/Kaustubh-Dalvi1001)
+
+---
+
+## 📬 Connect with Me
+
+- [LinkedIn](https://www.linkedin.com/in/kaustubh-dalvi-0431662a8)  
+- [GitHub](https://github.com/Kaustubh-Dalvi1001)  
+- 📧 kaustubhdalvi1001@gmail.com
 
 ---
 
