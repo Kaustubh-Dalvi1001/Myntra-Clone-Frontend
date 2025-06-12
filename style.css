@@ -1,0 +1,369 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  height: 13vmin;
+  display: flex;
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  position: fixed;
+}
+
+#myntra_logo {
+  width: 10vmin;
+  position: relative;
+  left: 8vmin;
+  top: 3vmin;
+}
+
+#logo {
+  width: 10%;
+}
+
+#bars {
+  display: none;
+}
+
+#nav-bar {
+  width: 50%;
+  padding-top: 4.5vmin;
+}
+
+#nav-bar a {
+  margin-left: 4vmin;
+  font-weight: 700;
+  text-decoration: none;
+  color: #282c3f;
+  padding: 5vmin 0;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+}
+#nav-bar a:hover {
+  border-bottom: 4px solid #ff3f6c;
+}
+
+#nav-bar a sup {
+  color: #ff3f6c;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+
+#search-bar {
+  width: 30%;
+}
+
+#search-input {
+  width: 60vmin;
+  height: 6vmin;
+  position: relative;
+  top: 3vmin;
+  padding-left: 5vmin;
+  background-image: url(search_image-removebg-preview.png);
+  background-size: 3vmin;
+  background-repeat: no-repeat;
+  background-position: 1vmin;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #696e79;
+  border: 1px solid #f5f5f6;
+  border-radius: 1vmin;
+  background-color: #f5f5f6;
+}
+
+#search-bar-2 {
+  display: none;
+}
+
+#actions {
+  width: 17%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.action-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+
+.action-icon a {
+  color: #282c3f;
+  font-size: 17px;
+}
+
+#bag-item-count {
+  background-color: #ff3f6c;
+  color: white;
+  padding: 0 0.8vmin;
+  border-radius: 50%;
+  position: absolute;
+  top: 2vmin;
+  right: 3vmin;
+}
+
+#footer-1 {
+  width: 100%;
+  background: #fafbfc;
+  padding: 10vmin;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer-div a {
+  text-decoration: none;
+  color: #696b79;
+  font-size: 15px;
+  line-height: 4vmin;
+}
+
+.footer-div ul {
+  list-style: none;
+  padding-top: 15px;
+}
+
+.bold {
+  color: #282c3f;
+  font-size: 12px;
+}
+
+#social {
+  margin-top: 15px;
+}
+
+#social a {
+  text-decoration: none;
+  color: #696b79;
+  font-size: 3.5vmin;
+}
+
+#copy-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #fafbfc;
+  padding: 5vmin;
+  color: #94969f;
+}
+
+#lb-1 {
+  color: #696b79;
+}
+
+#lb-1 a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #526cd0;
+}
+
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5vmin;
+  padding-top: 15vmin;
+}
+.item-container {
+  width: 42vmin;
+  margin: 2vmin 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 80vmin;
+}
+.item-image {
+  width: 100%;
+}
+.rating {
+  font-size: 12px;
+  font-weight: 700;
+}
+.company-name {
+  margin-top: 2vmin;
+  font-size: 16px;
+  font-weight: 700;
+  color: #282c3f;
+  margin-bottom: 6px;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.item-name {
+  color: #535766;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  display: block;
+}
+.price {
+  font-size: 14px;
+  line-height: 15px;
+  color: #282c3f;
+  white-space: nowrap;
+  padding: 1vmin 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.current-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #282c3f;
+}
+.original-price {
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.discount {
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+.add-btn {
+  width: 100%;
+  padding: 1vmin;
+  border: none;
+  border-radius: 1vmin;
+  background-color: lightgreen;
+  font-size: 2.5vmin;
+  transition: all 0.5s ease;
+}
+.add-btn:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  #search-bar {
+    display: none;
+  }
+  #search-bar-2 {
+    display: block;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 13vmin;
+    padding: 4vmin 2vmin;
+  }
+  #search-input-2 {
+    width: 99%;
+    padding: 2vmin;
+    padding-left: 8vmin;
+    border: none;
+    border-radius: 10vmin;
+    background-image: url(search_image-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 5vmin;
+    background-position: 1.5vmin 1.5vmin;
+    outline: none;
+    font-size: 3vmin;
+    color: #696e79;
+    border: 1px solid #f5f5f6;
+    background-color: #f5f5f6;
+  }
+  .items-container {
+    padding-top: 30vmin;
+  }
+  #nav-bar {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 900;
+    width: 40vw;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    /* display: none; */
+    transform: translateX(-100%);
+    transition: transform ease 0.5s;
+  }
+  #nav-bar a {
+    padding: 0;
+    margin: 0;
+  }
+
+  #bars {
+    display: block;
+    position: fixed;
+    padding: 2vmin;
+    font-size: 4vmin;
+    top: 2vmin;
+    z-index: 1000;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .action-lb {
+    display: none;
+  }
+  #nav-bar.action {
+    transform: translateX(0);
+  }
+  #myntra_logo {
+    top: 2.5vmin;
+  }
+
+  #bag-item-count {
+    padding: 0 1vmin;
+    position: absolute;
+    top: 2.5vmin;
+    right: 1.5vmin;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .item-container {
+    width: 80%;
+  }
+  #search-input-2 {
+    font-size: 14px;
+  }
+  .footer-div a {
+    font-size: 3vmin;
+    line-height: 6vmin;
+  }
+  .add-btn {
+    font-size: 4vmin;
+  }
+
+  #bag-item-count {
+    padding: 0 1vmin;
+    position: absolute;
+    top: 2vmin;
+    right: -1vmin;
+  }
+}

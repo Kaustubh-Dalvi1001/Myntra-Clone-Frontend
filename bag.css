@@ -1,0 +1,168 @@
+.checkout-div {
+  width: 100%;
+  display: flex;
+  padding-top: 10vmin;
+}
+.item-div {
+  width: 60vw;
+}
+
+.item-card {
+  margin: 10vmin;
+  padding: 5vmin;
+  border-radius: 1vmin;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.4);
+}
+
+.item-img-div {
+  width: 20%;
+}
+.item-img {
+  width: 100%;
+  border-radius: 1vmin;
+}
+
+.item-info-div {
+  margin-left: 5vmin;
+  width: 70%;
+}
+
+#company-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #282c3f;
+  margin-bottom: 6px;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#item-name {
+  color: #535766;
+  font-size: 14px;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  display: block;
+}
+
+#price {
+  font-size: 2.2vmin;
+  line-height: 15px;
+  color: #282c3f;
+  white-space: nowrap;
+  padding: 1vmin 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#current-price {
+  font-size: 2.2vmin;
+  font-weight: 700;
+  color: #282c3f;
+}
+#original-price {
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 1.8vmin;
+}
+#discount {
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 1.8vmin;
+  margin-left: 5px;
+}
+
+#return-div {
+  font-size: 2.2vmin;
+}
+
+#return-div span {
+  font-weight: 700;
+}
+
+#delivery-div {
+  font-size: 2.2vmin;
+  margin: 1vmin 0;
+}
+#delivery-div span {
+  color: teal;
+}
+
+#cut-btn {
+  height: 5vmin;
+  width: 5vmin;
+  font-size: 4vmin;
+  background-color: transparent;
+  border: none;
+}
+
+.total-price-div {
+  width: 40vw;
+}
+
+.price-card {
+  margin: 10vmin;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.4);
+  padding: 2vmin;
+}
+
+#price-details {
+  font-size: 2.2vmin;
+  font-weight: 600;
+  padding: 1vmin 0;
+  color: #282c3f;
+}
+
+.price-breakup {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.2vmin;
+  padding: 0.5vmin 0;
+  color: #535766;
+}
+
+#total-amount {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vmin 0;
+  font-size: 2.5vmin;
+  font-weight: 600;
+  color: #282c3f;
+}
+
+#order-btn {
+  width: 100%;
+  padding: 1.5vmin;
+  border: none;
+  border-radius: 0.5vmin;
+  background-color: #ff3f6c;
+  color: white;
+  font-weight: 700;
+  font-size: 2.2vmin;
+  letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 768px) {
+  .checkout-div {
+    padding-top: 25vmin;
+    display: flex;
+    flex-direction: column;
+  }
+  .item-div {
+    width: 100%;
+  }
+  .total-price-div {
+    width: 100%;
+  }
+}
