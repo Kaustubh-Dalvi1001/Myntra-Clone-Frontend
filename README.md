@@ -18,26 +18,27 @@ A fully responsive **frontend-only e-commerce clone of Myntra**, built using **H
 
 ## 📁 Folder Structure
 
-├── 📄 index.html # Homepage with product listings
-├── 📄 style.css # Styling for homepage
-├── 📄 script.js # JavaScript for homepage interactions
-├── 📄 bag.html # Cart/checkout page
-├── 📄 bag.css  # Styling for cart/checkout page
-├── 📄 bag.js # JavaScript for bag page logic
-├── 📄 items.js # Product database (JS array of objects)
-├── 🔎 search_image-removebg-preview
-└── 📁 Myntra clone images/ # Images used in product cards
-     ├── 1.jpg
-     ├── 2.jpg
-     ├── 3.jpg
-     ├── 4.jpg
-     ├── 5.jpg
-     ├── 6.jpg
-     ├── 7.jpg
-     ├── 8.jpg
-     ├── myntra_logo.webp
-     ├── Myntra_Screenshot_1.png
-     ├── Myntra_Screenshot_2.png
+├── 📄 index.html               # Homepage with product listings
+├── 📄 style.css                # Styling for homepage
+├── 📄 script.js                # JavaScript for homepage interactions
+├── 📄 bag.html                 # Cart/checkout page
+├── 📄 bag.css                  # Styling for cart/checkout page
+├── 📄 bag.js                   # JavaScript for bag page logic
+├── 📄 items.js                 # Product database (JS array of objects)
+├── 🔎 search_image-removebg-preview.png   # Search image logo
+└── 📁 Myntra_clone_images/     # Images used in product cards
+    ├── 1.jpg  
+    ├── 2.jpg  
+    ├── 3.jpg  
+    ├── 4.jpg  
+    ├── 5.jpg  
+    ├── 6.jpg  
+    ├── 7.jpg  
+    ├── 8.jpg  
+    ├── myntra_logo.webp  
+    ├── Myntra_Screenshot_1.png  
+    └── Myntra_Screenshot_2.png
+
 
 ---
 
